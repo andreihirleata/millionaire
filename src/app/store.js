@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import triviaReducer from '../features/trivia/triviaSlice';
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+    trivia: triviaReducer,
   },
 });
